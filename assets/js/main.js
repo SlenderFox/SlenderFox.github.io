@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function()
             line_linked:
             {
                 enable: !0,
-                distance: 150,
+                distance: 500,
                 color: "#21bd09",
                 opacity: .4,
                 width: 1
@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function()
                 },
                 push:
                 {
-                    particles_nb: 4
+                    particles_nb: 10
                 },
                 remove:
                 {
