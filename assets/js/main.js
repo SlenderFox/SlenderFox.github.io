@@ -129,7 +129,7 @@ document.addEventListener("DOMContentLoaded", function()
                 },
                 push:
                 {
-                    particles_nb: 10
+                    particles_nb: 2
                 },
                 remove:
                 {
