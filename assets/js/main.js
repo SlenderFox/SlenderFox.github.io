@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function()
             },
             color:
             {
-                value: "#2acc12"
+                value: "#24d10a"
             },
             shape:
             {
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function()
             {
                 enable: !0,
                 distance: 150,
-                color: "#27bd11",
+                color: "#21bd09",
                 opacity: .4,
                 width: 1
             },
