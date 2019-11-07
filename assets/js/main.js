@@ -64,7 +64,7 @@ document.addEventListener("DOMContentLoaded", function()
             line_linked:
             {
                 enable: !0,
-                distance: 500,
+                distance: 300,
                 color: "#21bd09",
                 opacity: .4,
                 width: 1
@@ -95,7 +95,7 @@ document.addEventListener("DOMContentLoaded", function()
                 onhover:
                 {
                     enable: !1,
-                    mode: "grab"
+                    mode: "repulse"
                 },
                 onclick:
                 {
