@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function()
                 },
                 polygon:
                 {
-                    nb_sides: 3
+                    nb_sides: 8
                 },
                 image:
                 {
