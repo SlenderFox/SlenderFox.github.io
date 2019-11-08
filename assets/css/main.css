@@ -1525,7 +1525,8 @@ sub,sup {
     }
 }
 .tech {
-    margin:10px
+    margin:10px;
+    max-width: 30%;
 }
 .user {
     text-align:center;
