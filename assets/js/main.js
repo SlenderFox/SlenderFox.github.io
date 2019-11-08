@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function()
         {
             number:
             {
-                value: 30,
+                value: 40,
                 density:
                 {
                     enable: !0,
@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", function()
                 },
                 polygon:
                 {
-                    nb_sides: 5
+                    nb_sides: 6
                 },
                 image:
                 {
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function()
             },
             size:
             {
-                value: 4,
+                value: 2,
                 random: !0,
                 anim:
                 {
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function()
             move:
             {
                 enable: !0,
-                speed: 8,
+                speed: 20,
                 direction: "none",
                 random: !0,
                 straight: !1,
