@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function()
             },
             size:
             {
-                value: 8,
+                value: 3,
                 random: !0,
                 anim:
                 {
