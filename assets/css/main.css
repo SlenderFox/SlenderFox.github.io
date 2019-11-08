@@ -1528,6 +1528,9 @@ sub,sup {
     margin:10px;
     max-width: 30%;
 }
+.tech h2 {
+    height: 10em;
+}
 .user {
     text-align:center;
     font-size:60px;
