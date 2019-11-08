@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function()
         {
             number:
             {
-                value: 40,
+                value: 30,
                 density:
                 {
                     enable: !0,
