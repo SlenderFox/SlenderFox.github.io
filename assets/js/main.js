@@ -51,13 +51,13 @@ document.addEventListener("DOMContentLoaded", function()
             },
             size:
             {
-                value: 3,
+                value: 4,
                 random: !0,
                 anim:
                 {
                     enable: !1,
-                    speed: 500,
-                    size_min: .1,
+                    speed: 20,
+                    size_min: .2,
                     sync: !1
                 }
             },
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function()
             move:
             {
                 enable: !0,
-                speed: 4,
+                speed: 8,
                 direction: "none",
                 random: !0,
                 straight: !1,
