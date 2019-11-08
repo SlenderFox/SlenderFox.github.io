@@ -1526,7 +1526,7 @@ sub,sup {
 }
 .tech {
     margin:10px;
-    width:40%;
+    max-width:50%;
 }
 .tech h2 {
     height:2em;
