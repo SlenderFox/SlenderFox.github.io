@@ -1517,7 +1517,7 @@ sub,sup {
 #about {
     width:90%;
     margin:0 auto;
-    max-width:1024px;
+    max-width:960px;
 }
 @media only screen and (min-width:550px) {
     #about {
@@ -1526,7 +1526,7 @@ sub,sup {
 }
 .tech {
     margin:10px;
-    max-width:50%;
+    max-width:45%;
 }
 .tech h2 {
     height:2em;
