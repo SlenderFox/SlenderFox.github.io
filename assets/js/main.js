@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function()
             move:
             {
                 enable: !0,
-                speed: 5,
+                speed: 2.5,
                 direction: "none",
                 random: !0,
                 straight: !1,
