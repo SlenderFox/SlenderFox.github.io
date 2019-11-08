@@ -56,7 +56,7 @@ document.addEventListener("DOMContentLoaded", function()
                 anim:
                 {
                     enable: !1,
-                    speed: 40,
+                    speed: 500,
                     size_min: .1,
                     sync: !1
                 }
