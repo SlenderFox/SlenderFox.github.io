@@ -1,6 +1,6 @@
 // This should remove the scrollbar
-var block = document.getElementById('particles-js');
-block.style.background = "#FFFFFF";
+var block = document.getElementById('MainContainer');
+block.style.width = "50%";
 
 document.addEventListener("DOMContentLoaded", function()
 {
