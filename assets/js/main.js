@@ -2,79 +2,55 @@
 var block = document.getElementById('MainContainer');
 block.style.paddingRight = block.offsetWidth - block.clientWidth + "px";
 
-document.addEventListener("DOMContentLoaded", function()
-{
+document.addEventListener("DOMContentLoaded", function() {
     new SweetScroll({});
-    particlesJS("particles-js",
-    {
-        particles:
-        {
-            number:
-            {
+    particlesJS("particles-js", {
+        particles: {
+            number: {
                 value: 30,
-                density:
-                {
+                density: {
                     enable: !0,
                     value_area: 800
                 }
-            },
-            color:
-            {
+            }, color: {
                 value: "#24d10a"
-            },
-            shape:
-            {
+            }, shape: {
                 type: "polygon",
-                stroke:
-                {
+                stroke: {
                     width: 0,
                     color: "#000000"
-                },
-                polygon:
-                {
+                }, polygon: {
                     nb_sides: 6
-                },
-                image:
-                {
+                }, image: {
                     src: "img/github.svg",
                     width: 100,
                     height: 100
                 }
-            },
-            opacity:
-            {
+            }, opacity: {
                 value: .5,
                 random: !1,
-                anim:
-                {
+                anim: {
                     enable: !1,
                     speed: 1,
                     opacity_min: .1,
                     sync: !1
                 }
-            },
-            size:
-            {
+            }, size: {
                 value: 2,
                 random: !0,
-                anim:
-                {
+                anim: {
                     enable: !1,
                     speed: 20,
                     size_min: .2,
                     sync: !1
                 }
-            },
-            line_linked:
-            {
+            }, line_linked: {
                 enable: !0,
                 distance: 450,
                 color: "#21bd09",
                 opacity: .4,
                 width: 1
-            },
-            move:
-            {
+            }, move: {
                 enable: !0,
                 speed: 2.5,
                 direction: "none",
@@ -82,61 +58,42 @@ document.addEventListener("DOMContentLoaded", function()
                 straight: !1,
                 out_mode: "out",
                 bounce: !1,
-                attract:
-                {
+                attract: {
                     enable: !1,
                     rotateX: 600,
                     rotateY: 1200
                 }
-            },
-            nb: 80
+            }, nb: 80
         },
-        interactivity:
-        {
+        interactivity: {
             detect_on: "canvas",
-            events:
-            {
-                onhover:
-                {
+            events: {
+                onhover: {
                     enable: !1,
                     mode: "repulse"
-                },
-                onclick:
-                {
+                }, onclick: {
                     enable: !0,
                     mode: "push"
-                },
-                resize: !0
-            },
-            modes:
-            {
-                grab:
-                {
+                }, resize: !0
+            }, modes: {
+                grab: {
                     distance: 400,
                     line_linked:
                     {
                         opacity: 1
                     }
-                },
-                bubble:
-                {
+                }, bubble: {
                     distance: 400,
                     size: 40,
                     duration: 2,
                     opacity: 8,
                     speed: 3
-                },
-                repulse:
-                {
+                }, repulse: {
                     distance: 200,
                     duration: .4
-                },
-                push:
-                {
+                }, push: {
                     particles_nb: 3
-                },
-                remove:
-                {
+                }, remove: {
                     particles_nb: 2
                 }
             }
