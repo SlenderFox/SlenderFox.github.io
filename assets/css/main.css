@@ -305,7 +305,11 @@ sub,sup {
 }
 .tech {
     margin:10px;
-    max-width:45%;
+}
+@media only screen and (min-width:550px) {
+    .tech {
+        max-width:45%;
+    }
 }
 .tech h2 {
     height:2em;
