@@ -141,3 +141,7 @@ document.addEventListener("DOMContentLoaded", function()
     })
 },
 !1);
+
+// This should remove the scrollbar
+var block = document.getElementById('MainContainer');
+block.style.paddingRight = block.offsetWidth - block.clientWidth + "px";
