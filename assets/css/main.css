@@ -3,10 +3,12 @@
 html {
     line-height:1.15;
     -ms-text-size-adjust:100%;
-    -webkit-text-size-adjust:100%
+    -webkit-text-size-adjust:100%;
+    overflow:hidden;
 }
 body {
-    margin:0
+    margin:0;
+    overflow:hidden;
 }
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
     display:block
@@ -1651,6 +1653,6 @@ sub,sup {
 #MainContainer {
     width: 100%;
     height: 100%;
-    overflow-y: hidden;
+    overflow: auto;
     padding-right: 0px; /* exact value is given in JavaScript code */
 }
