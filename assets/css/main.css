@@ -1654,7 +1654,3 @@ sub,sup {
     overflow: auto;
     padding-right: 0px; /* exact value is given in JavaScript code */
 }
-#MainContainer::-webkit-scrollbar {
-    width: 0;
-    height: 0;
-}
