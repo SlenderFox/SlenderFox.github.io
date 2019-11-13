@@ -4,12 +4,11 @@ html {
     line-height:1.15;
     -ms-text-size-adjust:100%;
     -webkit-text-size-adjust:100%;
+    overflow: hidden;
 }
 body {
     margin:0;
-}
-html, body {
-    overflow: hidden;
+    overflow: auto;
 }
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
     display:block
