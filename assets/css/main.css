@@ -350,9 +350,6 @@ sub,sup {
     max-width: 100%;
     height: auto;
     border-radius: 5px;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
 }
 .user-projects h5,body {
     margin: 0;
@@ -378,14 +375,21 @@ sub,sup {
         width: 48%;
     }
     .images-right {
+        position: relative;
         float: right;
         width: 48%;
         height: 100%;
     }
     .images-left {
+        position: relative;
         float: left;
         width: 48%;
         height: 100%;
+    }
+    .images-right img, .images-left img {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
 }
 .project-link {
