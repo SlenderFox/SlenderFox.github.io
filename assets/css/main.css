@@ -342,14 +342,9 @@ sub,sup {
     width:95%;
     margin:0 auto;
 }
-@media only screen and (min-width:550px) {
-    #projects {
-        width:80%;
-    }
-}
 .user-projects {
     margin:20px auto;
-    max-width: 50%;
+    max-width: 1200px;
 }
 .user-projects img {
     max-width:100%;
@@ -367,26 +362,25 @@ sub,sup {
     margin-right:5px;
 }
 @media only screen and (min-width:550px) {
+    #projects {
+        width:80%;
+    }
     .contents {
         margin-left:0;
         width:48%;
     }
     .contents-right {
         margin-top:-5%;
-    }
-    .contents-right,.images-right {
         float:right;
         width:48%;
     }
-    .images-right img {
+    .images-right {
         float:right;
+        width:48%;
     }
     .images-left {
         float:left;
         width:48%;
-    }
-    .images-left img {
-        float:left;
     }
 }
 .project-link {
