@@ -4,7 +4,7 @@ html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
-    background-color: rgb(16, 17, 18);
+    background-color: rgb(14, 15, 16);
 }
 body {
     margin: 0;
@@ -28,7 +28,7 @@ h1,h2,h3,h4,stong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
-    color: rgb(51, 51, 51);
+    color: rgb(230, 230, 230);
 }
 h1 {
     margin: .67em 0;
@@ -356,7 +356,7 @@ sub,sup {
     margin: 0;
 }
 .user-projects li {
-    color: rgb(26, 34, 44);
+    color: rgb(200, 200, 210);
     font-size: 1.1rem;
 }
 .user-projects p {
@@ -403,9 +403,9 @@ sub,sup {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: rgb(26, 34, 44);
+    color: rgb(200, 200, 210);
     background-color: transparent;
-    border: 1px solid rgb(26, 34, 44);
+    border: 1px solid rgb(200, 200, 210);
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -416,7 +416,7 @@ sub,sup {
 .project-link:active,.project-link:hover {
     background-color: rgb(84, 81, 106);
     border-color: rgb(84, 81, 106);
-    color: rgb(255, 255, 255);
+    color: rgb(60, 60, 60);
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in;
 }
 .footer {
@@ -424,7 +424,7 @@ sub,sup {
     padding: 10px 0;
     margin-top: 100px;
     text-align: center;
-    color: rgb(255, 255, 255);
+    color: rgb(230, 230, 230);
 }
 .footer .love {
     color: red;
@@ -432,7 +432,7 @@ sub,sup {
 .footer a {
     text-decoration: none;
     margin: 0;
-    color: rgb(255, 255, 255);
+    color: rgb(230, 230, 230);
 }
 .icons8-unity { 
     display: inline-block;
