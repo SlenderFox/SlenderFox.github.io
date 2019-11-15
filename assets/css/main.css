@@ -379,21 +379,23 @@ sub,sup {
         width: 48%;
     }
     .images-right {
-        position: relative;
         float: right;
         width: 48%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .images-left {
-        position: relative;
         float: left;
         width: 48%;
         height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
     .images-right img, .images-left img {
-        position: absolute;
-        top: 50%;
-        transform: translateY(-50%);
+        max-height: 100%;
     }
 }
 .project-link {
