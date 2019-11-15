@@ -4,13 +4,14 @@ html {
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+    background-color: rgb(16, 17, 18);
 }
 body {
     margin: 0;
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
-    color: #555;
+    color: rgb(85, 85, 85);
     font-family:  sans-serif;
 }
 html, body {
@@ -27,7 +28,7 @@ h1,h2,h3,h4,stong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
-    color: #333;
+    color: rgb(51, 51, 51);
 }
 h1 {
     margin: .67em 0;
@@ -69,8 +70,8 @@ dfn {
     font-style: italic;
 }
 mark {
-    background-color: #ff0;
-    color: #000;
+    background-color: rgb(255, 255, 0);
+    color: rgb(0, 0, 0);
 }
 small {
     font-size: 80%;
@@ -175,7 +176,7 @@ sub,sup {
     line-height: 0;
 }
 #particles-js {
-    background: #111213;
+    background: rgb(17, 18, 19);
     display: flex;
     vertical-align: bottom;
     width: 100%;
@@ -191,7 +192,7 @@ sub,sup {
 .header {
     z-index: 1;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -203,7 +204,7 @@ sub,sup {
     font-size: 50px;
     display: block;
     line-height: 1;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 @media only screen and (min-width: 550px) {
     .header .site-title {
@@ -215,7 +216,7 @@ sub,sup {
     font-size: 20px;
     display: block;
     line-height: 1;
-    color: #fff;
+    color: rgb(255, 255, 255);
     margin-top: 10px;
 }
 @media only screen and (min-width: 550px) {
@@ -227,7 +228,7 @@ sub,sup {
     margin: 10px;
 }
 .header-links .link {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
@@ -243,22 +244,22 @@ sub,sup {
     text-align: center;
 }
 .down,.header-icons .icon {
-    color: #fff;
+    color: rgb(255, 255, 255);
     text-align: center;
 }
 .header-icons .icon {
     height: 20px;
     padding: 10px;
     border-radius: 50%;
-    border: 2px solid #fff;
+    border: 2px solid rgb(255, 255, 255);
     transition: all .7s;
     width: 20px;
     font-size: 20px;
     margin: 5px;
 }
 .header-icons .icon:active,.header-icons .icon:hover {
-    color: #1a222c;
-    background: #fff;
+    color: rgb(26, 34, 44);
+    background: rgb(255, 255, 255);
 }
 @media only screen and (min-width: 550px) {
     .header-icons .icon {
@@ -286,12 +287,12 @@ sub,sup {
     transform: translate(-50%,-50%);
     width: 100px;
     height: 100px;
-    fill: #fff;
+    fill: rgb(255, 255, 255);
     -webkit-animation: pulse 1.3s infinite;
     animation: pulse 1.3s infinite;
 }
 .down .icon:active,.down .icon:hover,.footer a:active,.footer a:hover {
-    color: #4b5664;
+    color: rgb(75, 86, 100);
 }
 #about {
     width: 90%;
@@ -355,7 +356,7 @@ sub,sup {
     margin: 0;
 }
 .user-projects li {
-    color: #1a222c;
+    color: rgb(26, 34, 44);
     font-size: 1.1rem;
 }
 .user-projects p {
@@ -402,9 +403,9 @@ sub,sup {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: #1a222c;
+    color: rgb(26, 34, 44);
     background-color: transparent;
-    border: 1px solid #1a222c;
+    border: 1px solid rgb(26, 34, 44);
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -413,17 +414,17 @@ sub,sup {
     transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
 }
 .project-link:active,.project-link:hover {
-    background-color: #54516a;
-    border-color: #54516a;
-    color: #fff;
+    background-color: rgb(84, 81, 106);
+    border-color: rgb(84, 81, 106);
+    color: rgb(255, 255, 255);
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in;
 }
 .footer {
-    background: #111213;
+    background: rgb(17, 18, 19);
     padding: 10px 0;
     margin-top: 100px;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .footer .love {
     color: red;
@@ -431,7 +432,7 @@ sub,sup {
 .footer a {
     text-decoration: none;
     margin: 0;
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .icons8-unity { 
     display: inline-block;
@@ -555,7 +556,7 @@ sub,sup {
 }
 .fa-border {
     padding: .2em .25em .15em;
-    border: solid .08em #eee;
+    border: solid .08em rgb(238, 238, 238);
     border-radius: .1em;
 }
 .fa-pull-left {
@@ -646,7 +647,7 @@ sub,sup {
     font-size: 2em;
 }
 .fa-inverse {
-    color: #fff;
+    color: rgb(255, 255, 255);
 }
 .fa-glass:before { content: "\f000"; } 
 .fa-music:before { content: "\f001"; } 
