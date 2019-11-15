@@ -315,6 +315,9 @@ sub,sup {
 .tech h2 {
     height: 2em;
 }
+.icons {
+    background-color: rgb(21, 28, 43);
+}
 .user {
     text-align: center;
     font-size: 60px;
