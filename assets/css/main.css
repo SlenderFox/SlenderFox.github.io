@@ -344,7 +344,7 @@ sub,sup {
 }
 .user-projects {
     margin: 20px auto;
-    max-width:  1200px;
+    max-width: 1200px;
 }
 .user-projects img {
     max-width: 100%;
@@ -364,6 +364,9 @@ sub,sup {
 @media only screen and (min-width: 550px) {
     #projects {
         width: 80%;
+    }
+    .user-projects{
+        min-width: 550px;
     }
     .contents {
         margin-left: 0;
