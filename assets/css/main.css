@@ -366,7 +366,8 @@ sub,sup {
         width: 80%;
     }
     .user-projects{
-        min-width: 550px;
+        min-width: 440px;
+        width: 80%;
     }
     .contents {
         margin-left: 0;
