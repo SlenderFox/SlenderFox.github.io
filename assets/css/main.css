@@ -380,7 +380,6 @@ sub,sup {
     }
     .images-right img {
         float:right;
-        width:48%;
     }
     .images-left {
         float:left;
@@ -388,7 +387,6 @@ sub,sup {
     }
     .images-left img {
         float:left;
-        width:48%;
     }
 }
 .project-link {
