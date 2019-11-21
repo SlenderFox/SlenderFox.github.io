@@ -24,7 +24,7 @@ html::-webkit-scrollbar, body::-webkit-scrollbar {
 article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
     display: block;
 }
-h1,h2,h3,h4,strong {
+h1 ,h2, h3, h4, strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
@@ -163,10 +163,10 @@ summary {
 [hidden],template {
     display: none;
 }
-ol,ul {
+ol, ul {
     padding-left: 40px;
 }
-figure,ol,p,ul {
+figure, ol, p, ul {
     margin: 1em 0;
 }
 a img {
@@ -473,9 +473,9 @@ input:checked + .slider:before {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: rgb(200, 200, 210);
+    color: rgb(230, 230, 230);
     background-color: transparent;
-    border: 1px solid rgb(200, 200, 210);
+    border: 1px solid rgb(230, 230, 230);
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -483,10 +483,10 @@ input:checked + .slider:before {
     cursor: pointer;
     transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
 }
-.project-link:active,.project-link:hover {
-    background-color: rgb(84, 81, 106);
-    border-color: rgb(84, 81, 106);
-    color: rgb(60, 60, 60);
+.project-link:active, .project-link:hover {
+    background-color: rgb(138, 138, 141);
+    border-color: rgb(138, 138, 141);
+    color: rgb(55, 55, 55);
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in;
 }
 .footer {

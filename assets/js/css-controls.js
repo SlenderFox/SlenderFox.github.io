@@ -7,6 +7,9 @@ const h2 = document.querySelectorAll('h2');
 const h3 = document.querySelectorAll('h3');
 const h4 = document.querySelectorAll('h4');
 const li = document.querySelectorAll('li');
+const project_link = document.getElementsByClassName('project-link');
+const project_link_active = document.querySelectorAll('project-link:active');
+const project_link_hover = document.querySelectorAll('project-link:hover');
 
 button.addEventListener('click', function() {
     if (button.value === "enabled") {
@@ -15,11 +18,15 @@ button.addEventListener('click', function() {
         // Colours changes
         html.style.backgroundColor = "rgb(255, 255, 255)";
         body.style.color = "rgb(5, 5, 5)";
-        Array.from(h1).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)" });
-        Array.from(h2).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)" });
-        Array.from(h3).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)" });
-        Array.from(h4).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)" });
-        Array.from(li).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)" });
+        Array.from(h1).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(h2).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(h3).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(h4).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(li).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(li).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        project_link.forEach(element => {
+            element.setAttribute(color, "rgb(5, 5, 5)");
+        });
     } else {
         button.value = "enabled";
         console.log("Light theme disabled");
@@ -31,5 +38,8 @@ button.addEventListener('click', function() {
         Array.from(h3).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
         Array.from(h4).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
         Array.from(li).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
+        project_link.forEach(element => {
+            element.setAttribute(color, "rgb(230, 230, 230)");
+        });
     }
 })
