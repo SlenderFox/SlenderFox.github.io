@@ -15,8 +15,7 @@ button.addEventListener('click', function() {
         // Colours changed
         html.style.backgroundColor = "rgb(255, 255, 255)";
         body.style.color = "rgb(5, 5, 5)";
-        for (var node in h1)
-            node.style.color = "rgb(5, 5, 5)";
+        Array.from(h1).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)" });
         h2.style.color = "rgb(5, 5, 5)";
         h3.style.color = "rgb(5, 5, 5)";
         h4.style.color = "rgb(5, 5, 5)";
@@ -26,8 +25,7 @@ button.addEventListener('click', function() {
         // Colours changed
         html.style.backgroundColor = "rgb(12, 13, 14)";
         body.style.color = "rgb(230, 230, 230)";
-        for (var node in h1)
-            node.style.color = "rgb(230, 230, 230)";
+        Array.from(h1).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
         h2.style.color = "rgb(230, 230, 230)";
         h3.style.color = "rgb(230, 230, 230)";
         h4.style.color = "rgb(230, 230, 230)";
