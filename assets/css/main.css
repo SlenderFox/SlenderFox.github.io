@@ -269,11 +269,15 @@ sub,sup {
     }
 }
 .theme-switch {
+    position: 0, 0, absolute;
     width: 100x;
     height: 50px;
 }
 .switch {
     position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
     display: inline-block;
     width: 60x;
     height: 34px;
