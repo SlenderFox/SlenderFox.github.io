@@ -13,12 +13,20 @@ button.addEventListener('click', function() {
         console.log("Light theme enabled");
         // Colours changed
         html.style.backgroundColor = "rgb(255, 255, 255)";
-        body.style.color, h1.style.color, h2.style.color, h3.style.color, h4.style.color = "rbg(5, 5, 5)";
+        body.style.color = "rbg(5, 5, 5)";
+        h1.style.color = "rbg(5, 5, 5)";
+        h2.style.color = "rbg(5, 5, 5)";
+        h3.style.color = "rbg(5, 5, 5)";
+        h4.style.color = "rbg(5, 5, 5)";
     } else {
         button.value = "enabled";
         console.log("Light theme disabled");
         // Colours changed
         html.style.backgroundColor = "rgb(12, 13, 14)";
-        body.style.color, h1.style.color, h2.style.color, h3.style.color, h4.style.color = "rgb(230, 230, 230)";
+        body.style.color = "rgb(230, 230, 230)";
+        h1.style.color = "rgb(230, 230, 230)";
+        h2.style.color = "rgb(230, 230, 230)";
+        h3.style.color = "rgb(230, 230, 230)";
+        h4.style.color = "rgb(230, 230, 230)";
     }
 })
