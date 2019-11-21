@@ -473,9 +473,9 @@ input:checked + .slider:before {
     display: inline-block;
     margin: 10px 0;
     padding: 5px;
-    color: rgb(230, 230, 230);
+    color: rgb(190, 190, 190);
     background-color: transparent;
-    border: 1px solid rgb(230, 230, 230);
+    border: 1px solid rgb(190, 190, 190);
     border-radius: 10px;
     text-align: center;
     outline: 0;
@@ -484,8 +484,8 @@ input:checked + .slider:before {
     transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
 }
 .project-link:active, .project-link:hover {
-    background-color: rgb(138, 138, 141);
-    border-color: rgb(138, 138, 141);
+    background-color: rgb(190, 190, 190);
+    border-color: rgb(190, 190, 190);
     color: rgb(55, 55, 55);
     transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in;
 }
