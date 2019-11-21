@@ -25,7 +25,7 @@ button.addEventListener('click', function() {
         Array.from(li).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
         Array.from(li).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
         Array.from(project_link).forEach((element) => {
-            element.setAttribute(color, "rgb(5, 5, 5)");
+            element.setAttribute(style.color, "rgb(5, 5, 5)");
         });
     } else {
         button.value = "enabled";
@@ -39,7 +39,7 @@ button.addEventListener('click', function() {
         Array.from(h4).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
         Array.from(li).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
         Array.from(project_link).forEach((element) => {
-            element.setAttribute(color, "rgb(230, 230, 230)");
+            element.setAttribute(style.color, "rgb(230, 230, 230)");
         });
     }
 })
