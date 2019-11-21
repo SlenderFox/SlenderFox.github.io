@@ -269,7 +269,7 @@ sub,sup {
     }
 }
 .theme-switch {
-    position: 0, 0, absolute;
+    position: absolute;
     width: 100x;
     height: 50px;
 }
