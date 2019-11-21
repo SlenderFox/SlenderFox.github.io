@@ -3,15 +3,16 @@ const block = document.getElementById('MainContainer');
 block.style.paddingRight = block.offsetWidth - block.clientWidth + "px";
 
 const html = document.querySelector('html');
-const localStyle = getComputedStyle(html);
 
 const button = document.querySelector('input');
 button.addEventListener("switch", function() {
     if (button.value === "enabled") {
         // Light theme enabled
-        localStyle.backgroundColor = "rgb(255, 255, 255)";
+        console.log("Light theme selected");
+        html.style.backgroundColor = "rgb(255, 255, 255)";
     } else {
         // Dark theme enabled
-        localStyle.backgroundColor = "rgb(55, 55, 55)";
+        console.log("Dark theme selected");
+        html.style.backgroundColor = "rgb(55, 55, 55)";
     }
 })
