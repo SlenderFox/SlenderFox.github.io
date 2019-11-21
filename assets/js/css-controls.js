@@ -3,10 +3,10 @@ const button = document.querySelector('input[type="checkbox"]');
 const html = document.querySelector('html');
 const body = document.querySelector('body');
 const h1 = document.querySelectorAll('h1');
-const h2 = document.querySelector('h2');
-const h3 = document.querySelector('h3');
-const h4 = document.querySelector('h4');
-const li = document.querySelector('li');
+const h2 = document.querySelectorAll('h2');
+const h3 = document.querySelectorAll('h3');
+const h4 = document.querySelectorAll('h4');
+const li = document.querySelectorAll('li');
 
 button.addEventListener('click', function() {
     if (button.value === "enabled") {
