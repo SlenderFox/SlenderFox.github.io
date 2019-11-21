@@ -13,11 +13,11 @@ button.addEventListener('click', function() {
         console.log("Light theme enabled");
         // Colours changed
         html.style.backgroundColor = "rgb(255, 255, 255)";
-        body.style.color = "rbg(5, 5, 5)";
-        h1.style.color = "rbg(5, 5, 5)";
-        h2.style.color = "rbg(5, 5, 5)";
-        h3.style.color = "rbg(5, 5, 5)";
-        h4.style.color = "rbg(5, 5, 5)";
+        body.style.color = "rgb(5, 5, 5)";
+        h1.style.color = "rgb(5, 5, 5)";
+        h2.style.color = "rgb(5, 5, 5)";
+        h3.style.color = "rgb(5, 5, 5)";
+        h4.style.color = "rgb(5, 5, 5)";
     } else {
         button.value = "enabled";
         console.log("Light theme disabled");
