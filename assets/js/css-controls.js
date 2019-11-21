@@ -5,7 +5,7 @@ block.style.paddingRight = block.offsetWidth - block.clientWidth + "px";
 const html = document.querySelector('html');
 const localStyle = getComputedStyle(html);
 
-const button = document.querySelector('theme-switch');
+const button = document.querySelector('input');
 button.addEventListener("switch", function() {
     if (button.value === "enabled") {
         // Light theme enabled
