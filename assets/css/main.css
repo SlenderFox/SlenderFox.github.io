@@ -311,10 +311,10 @@ sub,sup {
     transition: .4s;
 }
 input:checked + .slider {
-    background-color: rgb(33, 150, 243);
+    background-color: rgb(200, 200, 200);
 }
 input:focus + .slider {
-    box-shadow: 0 0 1px rgb(33, 150, 243);
+    box-shadow: 0 0 1px rgb(200, 200, 200);
 }
 input:checked + .slider:before {
     -webkit-transform: translateX(20px);
