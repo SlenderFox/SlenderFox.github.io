@@ -2,6 +2,19 @@
 var block = document.getElementById('MainContainer');
 block.style.paddingRight = block.offsetWidth - block.clientWidth + "px";
 
+const button = document.querySelector('input');
+const paragraph = document.querySelector('p');
+
+button.addEventListener('click', function() {
+    if (button.value === 'Button pressed') {
+        button.value = 'fuck';
+        paragraph.textContent = 'What changed here';
+    } else {
+        button.value = 'Button pressed';
+        paragraph.textContent = 'Is this where it edits';
+    }
+})
+
 document.addEventListener("DOMContentLoaded", function() {
     new SweetScroll({});
     particlesJS("particles-js", {
