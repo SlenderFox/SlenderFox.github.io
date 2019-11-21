@@ -1,9 +1,3 @@
-// This should remove the scrollbar
-var block = document.getElementById('MainContainer');
-block.style.paddingRight = block.offsetWidth - block.clientWidth + "px";
-
-const button = document.getElementsByClassName('theme-switch');
-
 document.addEventListener("DOMContentLoaded", function() {
     new SweetScroll({});
     particlesJS("particles-js", {
@@ -104,7 +98,3 @@ document.addEventListener("DOMContentLoaded", function() {
     })
 },
 !1);
-
-button.addEventListener("switch", function() {
-    
-})
