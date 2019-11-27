@@ -11,7 +11,7 @@ const li = document.querySelectorAll('li');
 button.addEventListener('click', function() {
     if (button.value === "enabled") {
         button.value = "disabled";
-        console.log("Light theme enabled");
+        //console.log("Light theme enabled");
         // Colours changes
         html.style.backgroundColor = "rgb(255, 255, 255)";
         body.style.color = "rgb(5, 5, 5)";
@@ -20,10 +20,9 @@ button.addEventListener('click', function() {
         Array.from(h3).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
         Array.from(h4).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
         Array.from(li).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
-        Array.from(li).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
     } else {
         button.value = "enabled";
-        console.log("Light theme disabled");
+        //console.log("Light theme disabled");
         // Colours changes
         html.style.backgroundColor = "rgb(12, 13, 14)";
         body.style.color = "rgb(230, 230, 230)";
