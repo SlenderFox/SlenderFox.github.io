@@ -6,6 +6,7 @@ const h1 = document.querySelectorAll('h1');
 const h2 = document.querySelectorAll('h2');
 const h3 = document.querySelectorAll('h3');
 const h4 = document.querySelectorAll('h4');
+const strong = document.querySelectorAll('strong');
 const li = document.querySelectorAll('li');
 
 button.addEventListener('click', function() {
@@ -19,6 +20,7 @@ button.addEventListener('click', function() {
         Array.from(h2).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
         Array.from(h3).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
         Array.from(h4).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(strong).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
         Array.from(li).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
     } else {
         button.value = "enabled";
@@ -30,6 +32,7 @@ button.addEventListener('click', function() {
         Array.from(h2).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
         Array.from(h3).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
         Array.from(h4).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
+        Array.from(strong).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)"; });
         Array.from(li).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
     }
 })
