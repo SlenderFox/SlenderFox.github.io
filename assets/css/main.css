@@ -1,12 +1,12 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
-:root {
+html {
+    /*Variables*/
     --localWhite: rgb(230, 230, 230);
     --localBlack: rgb(5, 5, 5);
     --shadowOffset: 8px;
     --pageOffset: -8px;
-}
-html {
+    /*---------*/
     min-height: 100%;
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
