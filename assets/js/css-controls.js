@@ -14,27 +14,29 @@ const li = document.querySelectorAll('li');
 button.addEventListener('click', function() {
     if (button.value === "enabled") {
         button.value = "disabled";
-        //console.log("Light theme enabled");
+        console.log("Light theme enabled");
+        console.log(light);
         // Colours changes
         html.style.backgroundColor = "rgb(255, 255, 255)";
-        body.style.color = dark;
-        Array.from(h1).forEach((ele) => { ele.style.color = dark; });
-        Array.from(h2).forEach((ele) => { ele.style.color = dark; });
-        Array.from(h3).forEach((ele) => { ele.style.color = dark; });
-        Array.from(h4).forEach((ele) => { ele.style.color = dark; });
-        Array.from(strong).forEach((ele) => { ele.style.color = dark; });
-        Array.from(li).forEach((ele) => { ele.style.color = dark; });
+        body.style.color = "rgb(5, 5, 5)";
+        Array.from(h1).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(h2).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(h3).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(h4).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(strong).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
+        Array.from(li).forEach((ele) => { ele.style.color = "rgb(5, 5, 5)"; });
     } else {
         button.value = "enabled";
-        //console.log("Light theme disabled");
+        console.log("Light theme disabled");
+        console.log(dark);
         // Colours changes
         html.style.backgroundColor = "rgb(12, 13, 14)";
-        body.style.color = light;
-        Array.from(h1).forEach((ele) => { ele.style.color = light });
-        Array.from(h2).forEach((ele) => { ele.style.color = light });
-        Array.from(h3).forEach((ele) => { ele.style.color = light });
-        Array.from(h4).forEach((ele) => { ele.style.color = light });
-        Array.from(strong).forEach((ele) => { ele.style.color = light; });
-        Array.from(li).forEach((ele) => { ele.style.color = light });
+        body.style.color = "rgb(230, 230, 230)";
+        Array.from(h1).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
+        Array.from(h2).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
+        Array.from(h3).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
+        Array.from(h4).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
+        Array.from(strong).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)"; });
+        Array.from(li).forEach((ele) => { ele.style.color = "rgb(230, 230, 230)" });
     }
 })
