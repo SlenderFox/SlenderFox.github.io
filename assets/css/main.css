@@ -1,6 +1,7 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
 html {
+    min-height: 100%;
     line-height: 1.15;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
@@ -519,15 +520,30 @@ input:checked + .slider:before {
 .resume {
     display: flex;
     justify-content: center;
-    flex-direction: column;
     background-color: rgb(255, 255, 255);
     color: rgb(5, 5, 5);
 }
 .resume h1, h2, h3, h4, strong, li {
     color: rgb(5, 5, 5);
 }
-.resume .page {
-    max-width: 1000px;
+.resume #page {
+    margin: 20px;
+    border: 1px line rgb(231, 14, 213)
+}
+.resume #shadow {
+    margin: 20px;
+    border: 1px line rgb(46, 16, 214)
+}
+.resume #paper {
+    margin: 20px;
+    border: 1px line rgb(211, 24, 17)
+}
+.resume .content {
+    margin: 20px;
+    border: 1px line rgb(23, 214, 16)
+}
+@media only screen and (min-width: 550px) {
+    
 }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http: //fontawesome.io - @fontawesome
