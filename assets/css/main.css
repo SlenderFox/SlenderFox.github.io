@@ -517,11 +517,17 @@ input:checked + .slider:before {
     padding-right:  0px; /* exact value is given by main.js */
 }
 .resume {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgb(255, 255, 255);
     color: rgb(5, 5, 5);
 }
 .resume h1, h2, h3, h4, strong, li {
     color: rgb(5, 5, 5);
+}
+.resume .page {
+    max-width: 1000px;
 }
 /*!
  *  Font Awesome 4.7.0 by @davegandy - http: //fontawesome.io - @fontawesome
