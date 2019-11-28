@@ -1,5 +1,11 @@
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
 @import url(https://fonts.googleapis.com/css?family=Montserrat);
+:root {
+    --localWhite: rgb(230, 230, 230);
+    --localBlack: rgb(5, 5, 5);
+    --shadowOffset: 8px;
+    --pageOffset: -8px;
+}
 html {
     min-height: 100%;
     line-height: 1.15;
@@ -12,7 +18,7 @@ body {
     padding: 0;
     font-size: 100%;
     line-height: 1.5;
-    color: rgb(230, 230, 230);
+    color: var(--localWhite);
     font-family:  sans-serif;
 }
 html, body {
@@ -29,7 +35,7 @@ h1 ,h2, h3, h4, strong {
     margin-top: 1em;
     padding-top: 1em;
     line-height: 1.25;
-    color: rgb(230, 230, 230);
+    color: var(--localWhite);
 }
 h1 {
     margin: .67em 0;
@@ -495,7 +501,7 @@ input:checked + .slider:before {
     padding: 10px 0;
     margin-top: 100px;
     text-align: center;
-    color: rgb(230, 230, 230);
+    color: var(--localWhite);
 }
 .footer .love {
     color: red;
@@ -503,7 +509,7 @@ input:checked + .slider:before {
 .footer a {
     text-decoration: none;
     margin: 0;
-    color: rgb(230, 230, 230);
+    color: var(--localWhite);
 }
 .icons8-unity { 
     display: inline-block;
@@ -521,26 +527,32 @@ input:checked + .slider:before {
     display: flex;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    color: rgb(5, 5, 5);
+    color: var(--localBlack);
 }
 .resume h1, h2, h3, h4, strong, li {
-    color: rgb(5, 5, 5);
+    color: var(--localBlack);
 }
 .resume #page {
-    margin: 20px;
-    border: 1px line rgb(231, 14, 213)
+    margin: 1em;
+    border: 1px solid rgb(231, 14, 213);
 }
 .resume #shadow {
-    margin: 20px;
-    border: 1px line rgb(46, 16, 214)
+    margin: 1em;  
+    -webkit-transform: translate3d(var(--shadowOffset), var(--shadowOffset), 0);
+    -ms-transform: translate3d(var(--shadowOffset), var(--shadowOffset), 0);
+    transform: translate3d(var(--shadowOffset), var(--shadowOffset), 0);
+    border: 1px solid rgb(46, 16, 214);
 }
 .resume #paper {
-    margin: 20px;
-    border: 1px line rgb(211, 24, 17)
+    -webkit-transform: translate3d(var(--pageOffset), var(--pageOffset), 0);
+    -ms-transform: translate3d(var(--pageOffset), var(--pageOffset), 0);
+    transform: translate3d(var(--pageOffset), var(--pageOffset), 0);
+    border: 1px solid rgb(211, 24, 17);
 }
 .resume .content {
     margin: 20px;
-    border: 1px line rgb(23, 214, 16)
+    padding: 1em;
+    border: 1px solid rgb(23, 214, 16);
 }
 @media only screen and (min-width: 550px) {
     
