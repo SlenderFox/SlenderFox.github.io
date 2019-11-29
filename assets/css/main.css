@@ -530,7 +530,7 @@ input:checked + .slider:before {
     display: flex;
     justify-content: center;
 }
-.resume h1, h2, h3, h4, strong, li {
+.resume h1, .resume h2, .resume h3, .resume h4, .resume strong, .resume li {
     color: var(--localBlack);
 }
 #shadow {
