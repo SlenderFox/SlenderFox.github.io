@@ -501,7 +501,7 @@ input:checked + .slider:before {
     text-align: center;
     color: var(--localWhite);
 }
-.footer .love {
+.footer #love {
     color: red;
 }
 .footer a {
@@ -530,15 +530,15 @@ input:checked + .slider:before {
 .resume h1, h2, h3, h4, strong, li {
     color: var(--localBlack);
 }
-.resume #shadow {
+#shadow {
     margin: 1em;
     background-color: rgb(100, 100, 100);
 }
-.resume #paper {
+#paper {
     margin: 2px;
     background-color: rgb(255, 255, 255);
 }
-.resume .content {
+.content {
     margin: 20px;
     padding: 1em;
 }
