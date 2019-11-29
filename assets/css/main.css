@@ -240,6 +240,12 @@ sub,sup {
     font-size: 15px;
     margin: 10px;
     padding: 4px;
+    transition: color .3s ease-out, background-color .3s ease-out;
+}
+.header-links .project-link:hover {
+    color: var(--localBlack);
+    background-color: rgb(255, 255, 255);
+    transition: color .3s ease-in, background-color .3s ease-in;
 }
 @media only screen and (min-width: 550px) {
     .header-links .link {
@@ -489,13 +495,12 @@ input:checked + .slider:before {
     outline: 0;
     text-decoration: none;
     cursor: pointer;
-    transition: color .3s ease-out, background-color .3s ease-out, border-color .3s ease-out;
+    transition: color .3s ease-out, background-color .3s ease-out;
 }
 .project-link:active, .project-link:hover {
     background-color: rgb(190, 190, 190);
-    border-color: rgb(190, 190, 190);
     color: rgb(55, 55, 55);
-    transition: color .3s ease-in, background-color .3s ease-in, border-color .3s ease-in;
+    transition: color .3s ease-in, background-color .3s ease-in;
 }
 .footer {
     background: rgb(17, 18, 19);
