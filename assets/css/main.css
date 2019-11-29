@@ -242,7 +242,7 @@ sub,sup {
     padding: 4px;
     transition: color .3s ease-out, background-color .3s ease-out;
 }
-.header-links .project-link:hover {
+.header-links .link:hover {
     color: var(--localBlack);
     background-color: rgb(255, 255, 255);
     transition: color .3s ease-in, background-color .3s ease-in;
