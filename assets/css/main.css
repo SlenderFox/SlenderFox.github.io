@@ -229,7 +229,7 @@ sub,sup {
     }
 }
 .header-links {
-    margin: 10px;
+    margin: 18px;
 }
 .header-links .link {
     color: rgb(255, 255, 255);
@@ -237,8 +237,8 @@ sub,sup {
     border-radius: 10px;
     text-decoration: none;
     font-size: 15px;
-    margin: 10px;
-    padding: 4px;
+    margin: 6px;
+    padding: 4px 6px;
     transition: color .3s ease-out, background-color .3s ease-out;
 }
 .header-links .link:hover {
@@ -548,7 +548,7 @@ input:checked + .slider:before {
     text-decoration: none;
     font-size: 15px;
     margin: 10px;
-    padding: 4px;
+    padding: 3px 20px;
     transition: color .3s ease-out, background-color .3s ease-out;
 }
 .resume-link .link:hover {
