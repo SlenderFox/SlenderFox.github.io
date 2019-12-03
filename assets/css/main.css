@@ -31,7 +31,6 @@ article,aside,details,figcaption,figure,footer,header,main,menu,nav,section {
 }
 h1 ,h2, h3, h4, strong {
     margin-top: 1em;
-    padding-top: 1em;
     line-height: 1.25;
     color: var(--localWhite);
 }
@@ -211,7 +210,7 @@ sub,sup {
     line-height: 1;
     color: rgb(255, 255, 255);
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
     .header .site-title {
         margin: 0;
         font-size: 100px;
@@ -224,7 +223,7 @@ sub,sup {
     color: rgb(255, 255, 255);
     margin-top: 10px;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
     .header .site-description {
         font-size: 40px;
     }
@@ -247,7 +246,7 @@ sub,sup {
     background-color: rgb(255, 255, 255);
     transition: color .3s ease-in, background-color .3s ease-in;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
     .header-links .link {
         font-size: 20px;
     }
@@ -275,7 +274,7 @@ sub,sup {
     color: rgb(26, 34, 44);
     background: rgb(255, 255, 255);
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
     .header-icons .icon {
         width: 35px;
         height: 35px;
@@ -372,7 +371,7 @@ input:checked + .slider:before {
     margin: 0 auto;
     max-width: 960px;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
     #about {
         width: 80%;
     }
@@ -380,7 +379,7 @@ input:checked + .slider:before {
 .tech {
     margin: 10px;;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
     .tech {
         max-width: 45%;
     }
@@ -409,7 +408,7 @@ input:checked + .slider:before {
 .user p {
     font-size: 16px;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
     .user {
         flex-wrap: nowrap;
         font-size: 75px;
@@ -417,7 +416,7 @@ input:checked + .slider:before {
 }
 .user-details {
     text-align: center;
-    margin: 5px auto;
+    margin-top: 4em;
 }
 #projects {
     display: flex;
@@ -446,7 +445,7 @@ input:checked + .slider:before {
     border-radius: 5px;
     border: 3px solid rgb(255, 255, 255);
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 800px) {
     #projects {
         width: 80%;
     }
@@ -459,7 +458,6 @@ input:checked + .slider:before {
         width: 48%;
     }
     .contents-right {
-        margin-top: -5%;
         float: right;
         width: 48%;
     }
