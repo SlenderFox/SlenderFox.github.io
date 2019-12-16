@@ -533,6 +533,7 @@ input:checked + .slider:before {
     color: var(--localBlack);
     display: flex;
     justify-content: center;
+	margin-bottom: 30px;
 }
 .resume h1, .resume h2, .resume h3, .resume h4, .resume strong, .resume li {
     color: var(--localBlack);
