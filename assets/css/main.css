@@ -379,6 +379,11 @@ input:checked + .slider:before {
 .tech {
     margin: 10px;;
 }
+@media only screen and (min-width: 1000px) {
+    .tech {
+        max-width: 45%;
+    }
+}
 /* .tech h2 {
     height: 2em;
 } */
@@ -392,10 +397,7 @@ input:checked + .slider:before {
     margin: 0px auto 25px auto;
     padding: 10px;
 }
-@media only screen and (min-width: 1000px) {
-    .tech {
-        max-width: 45%;
-    }
+@media only screen and (max-width: 1000px) {
     .icons {
         max-width: 350px;
     }
