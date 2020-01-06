@@ -210,7 +210,7 @@ sub,sup {
     line-height: 1;
     color: rgb(255, 255, 255);
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 1000px) {
     .header .site-title {
         margin: 0;
         font-size: 100px;
@@ -223,7 +223,7 @@ sub,sup {
     color: rgb(255, 255, 255);
     margin-top: 10px;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 1000px) {
     .header .site-description {
         font-size: 40px;
     }
@@ -246,7 +246,7 @@ sub,sup {
     background-color: rgb(255, 255, 255);
     transition: color .3s ease-in, background-color .3s ease-in;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 1000px) {
     .header-links .link {
         font-size: 20px;
     }
@@ -274,7 +274,7 @@ sub,sup {
     color: rgb(26, 34, 44);
     background: rgb(255, 255, 255);
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 1000px) {
     .header-icons .icon {
         width: 35px;
         height: 35px;
@@ -371,18 +371,13 @@ input:checked + .slider:before {
     margin: 0 auto;
     max-width: 960px;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 1000px) {
     #about {
         width: 80%;
     }
 }
 .tech {
     margin: 10px;;
-}
-@media only screen and (min-width: 550px) {
-    .tech {
-        max-width: 45%;
-    }
 }
 /* .tech h2 {
     height: 2em;
@@ -397,6 +392,14 @@ input:checked + .slider:before {
     margin-bottom: 25px;
     padding: 10px;
 }
+@media only screen and (min-width: 1000px) {
+    .tech {
+        max-width: 45%;
+    }
+    .icons {
+        max-width: 350px;
+    }
+}
 .user {
     text-align: center;
     font-size: 60px;
@@ -408,7 +411,7 @@ input:checked + .slider:before {
 .user p {
     font-size: 16px;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 1000px) {
     .user {
         flex-wrap: nowrap;
         font-size: 75px;
@@ -445,7 +448,7 @@ input:checked + .slider:before {
     border-radius: 5px;
     border: 3px solid rgb(255, 255, 255);
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 1000px) {
     #projects {
         width: 80%;
     }
@@ -523,7 +526,7 @@ input:checked + .slider:before {
     background: url('data: image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIKdmlld0JveD0iMCAwIDUwIDUwIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxwYXRoIGQ9Ik0gNDQuMDgyMDMxIDI1LjIwNzAzMSBMIDQ2LjkwMjM0NCAyMC40Mjk2ODggQyA0Ny4wMTU2MjUgMjAuMTkxNDA2IDQ3LjAzMTI1IDE5LjkxNzk2OSA0Ni45NDUzMTMgMTkuNjcxODc1IEwgNDEuMzU5Mzc1IDMuNjcxODc1IEMgNDEuMTg3NSAzLjE4MzU5NCA0MC42NzU3ODEgMi45MDYyNSA0MC4xNzk2ODggMy4wMjczNDQgTCAyMy43NjE3MTkgNy4wMjczNDQgQyAyMy40NDkyMTkgNy4xMDU0NjkgMjMuMTkxNDA2IDcuMzI4MTI1IDIzLjA3MDMxMyA3LjYyODkwNiBMIDIxLjMyNDIxOSAxMiBMIDE2IDEyIEMgMTUuNzIyNjU2IDEyIDE1LjQ1MzEyNSAxMi4xMTcxODggMTUuMjY1NjI1IDEyLjMyMDMxMyBMIDMuMjY1NjI1IDI1LjMyMDMxMyBDIDIuODk0NTMxIDI1LjcyMjY1NiAyLjkxNDA2MyAyNi4zNDc2NTYgMy4zMDg1OTQgMjYuNzIyNjU2IEwgMTUuODk0NTMxIDM4LjcyMjY1NiBDIDE2LjA3ODEyNSAzOC45MDIzNDQgMTYuMzI4MTI1IDM5IDE2LjU4MjAzMSAzOSBMIDIyLjMyMDMxMyAzOSBMIDI0LjA3MDMxMyA0My4zNzEwOTQgQyAyNC4xOTkyMTkgNDMuNjk1MzEzIDI0LjQ4ODI4MSA0My45MjU3ODEgMjQuODI4MTI1IDQzLjk4NDM3NSBMIDQyLjI4OTA2MyA0Ni45ODQzNzUgQyA0Mi4zNDM3NSA0Ni45OTYwOTQgNDIuNDAyMzQ0IDQ3IDQyLjQ1NzAzMSA0NyBDIDQyLjkyMTg3NSA0NyA0My4zMzIwMzEgNDYuNjc5Njg4IDQzLjQzMzU5NCA0Ni4yMTQ4NDQgTCA0Ni45NzY1NjMgMjkuOTg0Mzc1IEMgNDcuMDMxMjUgMjkuNzM0Mzc1IDQ2Ljk4ODI4MSAyOS40NzI2NTYgNDYuODUxNTYzIDI5LjI1IFogTSAyMS4zMjQyMTkgMTIgTCAzNS40MTc5NjkgOS40MTc5NjkgTCAyOCAyNCBMIDExLjE2Nzk2OSAyNCBaIE0gMjIuMzI0MjE5IDM5IEwgMTEuMTY3OTY5IDI4IEwgMjggMjggTCAzNi43NSA0MS4xNjc5NjkgWiBNIDQwLjM4NjcxOSAzOC44OTg0MzggTCAzMiAyNiBMIDM5LjMzMjAzMSAxMS40MTc5NjkgTCA0NC4wODIwMzEgMjUuMjEwOTM4IFoiPjwvcGF0aD48L3N2Zz4=') 50% 50% no-repeat;
     background-size: 100%;
 }
-@media only screen and (min-width: 550px) {
+@media only screen and (min-width: 1000px) {
     .icons8-unity {
         width: 60px;
         height: 60px;
