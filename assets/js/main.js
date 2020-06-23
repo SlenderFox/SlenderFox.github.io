@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     particlesJS("particles-js", {
         particles: {
             number: {
-                value: 10,
+                value: 30,
                 density: {
                     enable: !0,
                     value_area: 800
@@ -42,7 +42,7 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }, line_linked: {
                 enable: !0,
-                distance: 10,
+                distance: 450,
                 color: "#21bd09",
                 opacity: .4,
                 width: 1
