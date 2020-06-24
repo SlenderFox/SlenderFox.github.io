@@ -1,5 +1,5 @@
 document.addEventListener("DOMContentLoaded", function() {
-    new SweetScroll({});
+    // new SweetScroll({});
     particlesJS("particles-js", {
         particles: {
             number: {
@@ -96,5 +96,4 @@ document.addEventListener("DOMContentLoaded", function() {
         },
         retina_detect: !0
     })
-},
-!1);
+}, !1);
