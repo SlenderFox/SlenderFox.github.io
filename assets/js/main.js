@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", function() {
     particlesJS("particles-js", {
         particles: {
             number: {
-                value: 30,
+                value: 15,
                 density: {
                     enable: !0,
                     value_area: 800
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
                     width: 0,
                     color: "#000000"
                 }, polygon: {
-                    nb_sides: 6
+                    nb_sides: 5
                 }, image: {
                     src: "img/github.svg",
                     width: 100,
@@ -42,13 +42,13 @@ document.addEventListener("DOMContentLoaded", function() {
                 }
             }, line_linked: {
                 enable: !0,
-                distance: 100,
+                distance: 200,
                 color: "#21bd09",
                 opacity: .4,
                 width: 1
             }, move: {
                 enable: !0,
-                speed: 2.5,
+                speed: 1,
                 direction: "none",
                 random: !0,
                 straight: !1,
@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
             detect_on: "canvas",
             events: {
                 onhover: {
-                    enable: !1,
+                    enable: !0,
                     mode: "repulse"
                 }, onclick: {
                     enable: !0,
