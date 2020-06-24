@@ -65,7 +65,7 @@ document.addEventListener("DOMContentLoaded", function() {
             detect_on: "canvas",
             events: {
                 onhover: {
-                    enable: !0,
+                    enable: !1,
                     mode: "repulse"
                 }, onclick: {
                     enable: !0,
