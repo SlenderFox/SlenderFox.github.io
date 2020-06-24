@@ -377,7 +377,7 @@ input:checked + .slider:before {
     }
 }
 .tech {
-    margin: 10px;;
+    margin: 10px;
 }
 @media only screen and (min-width: 1000px) {
     .tech {
